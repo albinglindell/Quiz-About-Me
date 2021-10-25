@@ -6,7 +6,7 @@
 
 4)[X].starta om quizet utan att uppdatera sidan
 
-5)[].dark/lightmode
+5)[X].dark/lightmode
 
 
 Ska läggas upp med hjälp av git. 3 commits ska göras.
