@@ -97,7 +97,7 @@ restartBtn.addEventListener("click",()=>{
 
 checkBtn.addEventListener("click", ()=>{
     if(playing===0){
-            playing=1
+        playing=1
         allQuestions.forEach(e=>{
             if(e.checked){
                 if(e.id==="right"){  
@@ -108,22 +108,16 @@ checkBtn.addEventListener("click", ()=>{
                         if(felCheck[0,1,2].checked){
                             checkbox1=0
                             }
-                        }
+                    }
                     if(e.id==="right1"){
-                    checkbox1++ 
+                        checkbox1++ 
                     }
                     if(checkbox1 === 2){
                         rightAnsweres++
                     }
-                
                 } 
-            }
-            
+            }  
         })
-        
         correctQuiz()
-
     }
 })
-
-
